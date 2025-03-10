@@ -20,7 +20,7 @@ def get_strength_label(score):
     return labels[score - 1], colors[score - 1]
 
 def main():
-    st.title("🔒 Password Strength Meter")
+    st.title(" Password Strength Meter")
     st.write("Enter a password to check its strength.")
     
     password = st.text_input("Enter Password", type="password")
